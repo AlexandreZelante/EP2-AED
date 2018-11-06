@@ -84,10 +84,10 @@ int main() {
 
 	// o EP sera testado com chamadas deste tipo
 	NO* teste = NULL;
-	teste = listarChaves(p);
+	teste = listarChaves(no1);
 
 	// e aqui vc deveria percorrer a lista teste para ver se ficou correta etc.
-	exibirChavesComSubniveis(teste);
+	//exibirChavesComSubniveis(teste);
 
 }
 
