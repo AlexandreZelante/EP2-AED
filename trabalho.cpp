@@ -15,7 +15,7 @@ char* nroUSP1() {
 // ######### ESCREVA O NROUSP DO SEGUNDO INTEGRANTE AQUI (OU DEIXE COM ZERO)
 // ignore os warning to compilador, se houver
 char* nroUSP2() {
-    return("0000000");
+    return("10687509");
 }
 
 NO* limparNosTipo2(NO*p){
