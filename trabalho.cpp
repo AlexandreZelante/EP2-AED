@@ -3,7 +3,7 @@
 // ######### ESCREVA O NUMERO DO SEU GRUPO AQUI, CONFORME LINK NA ESPECIFICACAO DO EP
 // ignore os warning to compilador, se houver
 char* grupo() {
-    return("00");
+    return("20");
 }
 
 // ######### ESCREVA O NROUSP DO PRIMEIRO INTEGRANTE AQUI
