@@ -19,7 +19,6 @@ char* nroUSP2() {
 }
 
 NO* limparNosTipo2(NO*p){
-    printf("ola");
     NO* primeiro = p;
     NO* ant = NULL;
     while(p){
