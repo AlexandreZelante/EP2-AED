@@ -19,16 +19,18 @@ char* nroUSP2() {
 }
 
 NO* limparNosTipo2(NO*p){
+    printf("ola");
     NO* primeiro = p;
     NO* ant = NULL;
-    if(p->tipo == 2){
-        NO* temp = p->prox;
-        free(p);
-        p = temp;
-        primeiro = p;
-    }
     while(p){
-        if(p->tipo == 2){
+        if(p->tipo == 2 && ant == NULL){
+            NO* temp = p->prox;
+            free(p);
+            p = temp;
+            primeiro = p;
+            continue;
+        }
+        else if(p->tipo == 2){
             NO* temp = p->prox;
             ant->prox = p->prox;
             free(p);
